@@ -26,5 +26,17 @@ int main() {
         contadorRainha++;
     } while (contadorRainha < movimentosRainha);
 
+      // ======== Movimento do CAVALO (for + while) ========
+    // Cada movimento em "L" = 2x Baixo + 1x Esquerda
+    int movimentosCavalo = 2;
+    printf("\nMovimento do Cavalo:\n");
+    for (int i = 0; i < movimentosCavalo; i++) {
+        int j = 0;
+        while (j < 2) {
+            printf("Baixo\n");
+            j++;
+        }
+        printf("Esquerda\n");
+    }
     return 0;
 }
